@@ -1,0 +1,59 @@
+What is Data Structure ?
+
+    It is important for Structuring the structure/arranging data..
+
+
+Why Data Structure is needed ?
+
+    1. Save space in the memory.
+    2. Access the memory is faster than dumping data in the memory
+    3. 90% of data available today has been created in last 2-3 years.
+    4. Storage and compuations make faster....
+
+What is Algorithms ?
+
+    The logic to solve the problem
+    Step by step 
+
+
+Concept ZERO of DSA
+    
+    1. Algorithmic Analysis
+    2. Recursion
+
+Algorithmic Analysis
+
+    Which algorithm is use to solve the problem
+
+        A1 ---> t1 second to solve above problem
+        A2 ---> t2 second to solve above problem
+
+        Is A1 better than A2?
+            No, It depends on the algorithm used to solve the problem in term of :
+                1. logic to solve the problem
+                2. Operating System/ Processor
+                3. Programming Language
+                
+
+        An Algorithm should be independent of 
+    
+            1. Progarmming Language 
+            2. Operating System/ Processor
+            To do this we need :
+                1. Time Complexity
+                2. Space Complexity
+
+
+Time Complexity :
+    Time taken by an algorithm is wrong.
+    How no. of operation varies with input size.
+    Refer to script1 file for more information ...
+
+
+    O(1) : no. of operation is independent of the input size
+    O(n) : no. of operation is opeartion = input size
+
+
+
+
+
