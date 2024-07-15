@@ -1,0 +1,60 @@
+Recursion means function calling itself....
+
+kartik calling kartik  is Recursion.
+
+
+Every Recursion has 3 main thing : 
+    1. Base Condition / Termination Condition
+    2. Logic 
+    3. Calling the function Action
+
+
+
+In case of loops it is uni directional
+
+In case of Recursion it is bi-dirctional execution means it end where it started...
+
+
+Code : 
+function print(arr,s)
+{
+    // Base Condition 
+    if(s>=arr.length){ // think why not s===arr.length
+        return
+    }
+
+    // Logic
+    console.log(arr[s])
+
+    // Recursive Call
+    print(arr,s+1)
+}
+
+let arr = [1,2,3,4,5,6,9]
+print(arr,0);
+
+At 0, 1, 2 and ... n-1 th index value gets printed
+
+
+function print(arr,s)
+{
+    // Base Condition 
+    if(s>=arr.length){ // think why not s===arr.length
+        return
+    }
+
+    // Recursive Call
+    print(arr,s+1)
+
+    // Logic
+    console.log(arr[s])
+}
+
+let arr = [1,2,3,4,5,6,9]
+print(arr,0);
+
+
+Value at (n-1)th, (n-2)th, .... 0th index is printed 
+
+
+
