@@ -58,3 +58,11 @@ Value at (n-1)th, (n-2)th, .... 0th index is printed
 
 
 
+Time complexity of the Recursive function
+
+Since time complexity of normal function is no. of operations is proportional to input size and in case of Recursion it is how many times a function is called Recursivly.....
+
+to calculate time complexity we need make a Recursion tree ................
+
+
+

@@ -1,0 +1,33 @@
+Two main Programmmng Paradigm
+
+1. Procedural Progarmming
+2. OOPS
+
+Why OOPs ?
+In procedural programming paradigm free flow data control was not possible ...
+
+What is OOPS?
+It is a methodlogy or Paradigm to design a program using classes and objects...
+
+Why OOPs ?
+
+1. Data Abstraction
+2. Data Encapsulation
+3. Inheritance
+4. Polymorphism
+
+Data Abstraction : chhipa dena --- what is essential is made visible , actual core or engineering is made hideen 
+Data Encapsulation : 
+
+
+
+
+Class : Blueprint of a object / class in user defined data type
+It is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A class is like a blueprint for an object. 
+
+
+
+Object
+An Object is an identifiable entity with some characteristics and behavior.
+objects are variable of type class...
+An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
