@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "a:/Desktop/Nothing/Data Structure and Algorithms/Deeapk Gaur Sir Data Structure and Algorithm Course/Problem Statements/Cracking the Coding Interview",
-      "program": "a:/Desktop/Nothing/Data Structure and Algorithms/Deeapk Gaur Sir Data Structure and Algorithm Course/Problem Statements/Cracking the Coding Interview/build/Debug/outDebug",
+      "cwd": "a:/Desktop/Nothing/Data Structure and Algorithms/Linked List",
+      "program": "a:/Desktop/Nothing/Data Structure and Algorithms/Linked List/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
