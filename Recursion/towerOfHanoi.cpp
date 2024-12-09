@@ -20,6 +20,7 @@ void awadh_solution(){
     int size;
     cin>>size;
     hanoi(size,'A','B','C');
+    
 }
  
 int main(){

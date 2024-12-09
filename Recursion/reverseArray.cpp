@@ -15,11 +15,21 @@ void print(int arr[],int size, int start=0)
     print(arr,size,start);
     
 }
+void reverse(int arr[],int end, int start=0){
+    if(start>=end) return;
+    swap(arr[start],arr[end]);
+    reverse(arr,end-1,start+1);
+}
 void awadh_solution(){
 
     int arr[]{1,2,3,7,676567,97,-234,1,2,-1};
     int size = sizeof(arr)/sizeof(arr[0]);
+    cout<<"Original Array :: ";
     print(arr,size);
+    reverse(arr,size-1);
+    cout<<'\n'<<"Reverse Array :: ";
+    print(arr,size);
+
 
  
  

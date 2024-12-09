@@ -6,21 +6,23 @@ using namespace std;
  
 // Typedef
 typedef long long  ll;
-void print(int arr[],int size, int start=0)
-{
-    
-    if(start==size) return;
-    
-    cout<<arr[start++]<<' ';
-    print(arr,size,start);
-    
-}
+ 
 void awadh_solution(){
 
-    int arr[]{1,2,3,7,676567,97,-234,1,2,-1};
-    int size = sizeof(arr)/sizeof(arr[0]);
-    print(arr,size);
+    stack <int> s;
+    s.push(17);
+    s.push(10);
+    s.push(17);
+    s.push(21);
+    s.push(56);
 
+    while (!s.empty())
+    {
+        cout<<s.top()<<'\n';
+        s.pop();
+    }
+    
+    // cout<<s.top(); 
  
  
 }
