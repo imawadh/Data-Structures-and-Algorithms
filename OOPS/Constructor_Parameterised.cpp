@@ -14,7 +14,7 @@ class Account{
         double balance;
 
     void getinfo(){
-        cout<<"Name : "<<name<<" Account Number : "<<account_number<<" Balance : "<<balance<<'\n';
+        cout<<"Name : "<<name<<" Account Number : "<<account_number<<" Balance : "<<balance<<'\n'<<'\n';
         
     }
     
@@ -24,7 +24,7 @@ int main(){
     Account a1("Awadh","123456789",76543456);
     a1.getinfo();
     a1.name = "Awadh Kishor Singh";
-   a1.getinfo();
+    a1.getinfo();
     
 
 }
