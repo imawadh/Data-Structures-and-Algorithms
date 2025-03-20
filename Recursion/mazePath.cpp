@@ -7,8 +7,12 @@ using namespace std;
 // Typedef
 typedef long long  ll;
 int blocked(int sr,int sc,vector<vector<int>>blocked_cells){
+    
     int row = blocked_cells.size();
+    // row means number of rows in the blocked cell .... 
+
     for(int i = 0; i<row; i++){
+        // [i][0] means blocked cell ka 0th index ka value aur [i][1] mtlb ith row ka 1st index ka value  
         if(blocked_cells[i][0]==sr && blocked_cells[i][1]==sc){
             return true;
         }
@@ -17,7 +21,7 @@ int blocked(int sr,int sc,vector<vector<int>>blocked_cells){
 
 }
 int pathCount(int sr,int sc, int er, int ec,vector<vector<int>>blocked_cells){
-    if(blocked(sr,sc,blocked_cells)) return 0; // blocked need to che ked first 
+    if(blocked(sr,sc,blocked_cells)) return 0; // blocked need to checked first 
 
 
     if(sr==er && sc==ec) return 1; //  True Condition that I have raeched destination 
@@ -32,7 +36,8 @@ int pathCount(int sr,int sc, int er, int ec,vector<vector<int>>blocked_cells){
 }
  
 void awadh_solution(){
-    vector<vector<int>>blocked_cells = {{5,5}};
+    vector<vector<int>>blocked_cells = {{2,5},{2,3}};
+
     cout<<pathCount(1,1,5,5,blocked_cells)<<' ';
  
  

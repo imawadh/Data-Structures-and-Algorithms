@@ -9,11 +9,12 @@ typedef long long  ll;
 int maxValue(int arr[],int size,int start=0,int val=INT_MIN)
 {
     if (size==start) return val;
+    
     if(val<arr[start]) {
         val = arr[start];
     }
-    start++;
-    return maxValue(arr,size,start,val);
+
+    return maxValue(arr,size,start+1,val);
     
 }
  
@@ -28,8 +29,7 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(NULL);
  
-    int test;
-    cin>>test;
+    int test=1;
     while(test--){
        awadh_solution();
     }

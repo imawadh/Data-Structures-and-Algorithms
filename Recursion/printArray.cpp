@@ -11,8 +11,8 @@ void print(int arr[],int size, int start=0)
     
     if(start==size) return;
     
-    cout<<arr[start++]<<' ';
-    print(arr,size,start);
+    cout<<arr[start]<<' ';
+    print(arr,size,start+1);
     
 }
 void awadh_solution(){
