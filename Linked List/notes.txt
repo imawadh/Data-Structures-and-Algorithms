@@ -1,0 +1,10 @@
+Go in this order for revising the notes 
+
+
+revision_oops.cpp
+nodeClass.cpp
+nodePointer.cpp
+displayList.cpp
+sizeList.cpp
+basicProblems.cpp
+implementation.cpp
