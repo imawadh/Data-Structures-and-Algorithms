@@ -34,6 +34,10 @@ int main(){
     Student *ptr = &s1; // ptr is a pointer which points to s1 student
 
     // Two different ways of using pointers using arrow with no dereference operator and using dot with dereference operator  
+    // we need to dereference because of 
+    //     Dereferencing a pointer means accessing the actual value stored at the    memory address the pointer holds. When you dereference a pointer (using *), you are telling the program:
+    // "Don't use the address itself—go to that address and give me the data stored there."
+    // Dereferencing using * and changing its value is same as using -> operator directly .... 
 
     (*ptr).name = "Singh"; 
     cout<<s1.name<<"  "<<s1.roll_no<<"  "<<s1.marks<<endl;

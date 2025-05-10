@@ -12,6 +12,7 @@ class Node{ // User Defined Data Type
         }
 
 };
+
 class LinkedList{ // User Defined Data Structure
     public:
         Node* head;

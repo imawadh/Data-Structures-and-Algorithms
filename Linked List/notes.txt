@@ -1,10 +1,27 @@
 Go in this order for revising the notes 
 
+Phase 1 :: 
+    revision_oops.cpp
+    nodeClass.cpp
+    nodePointer.cpp
+    displayList.cpp
+    sizeList.cpp
+    basicProblems.cpp
+    implementation.cpp
 
-revision_oops.cpp
-nodeClass.cpp
-nodePointer.cpp
-displayList.cpp
-sizeList.cpp
-basicProblems.cpp
-implementation.cpp
+Phase 2 ::
+    DeleteNode.cpp
+    LeetCode 237
+    LeetCode 876
+    LeetCode 19 --> Using Math or Using slow and fast pointer 
+    LeetCode 160
+    LeetCode 141
+    LeetCode 142
+
+
+Phase 3 ::
+    LeetCode 83
+
+
+    
+

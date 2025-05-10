@@ -25,8 +25,8 @@ int main(){
     a->next = b;
     // or (*a).next = b;
     b->next = c;
-    c->next =d;
-    d->next =e;
+    c->next = d;
+    d->next = e;
     e->next = f;
     f->next = g;
 
