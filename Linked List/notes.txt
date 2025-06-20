@@ -9,18 +9,41 @@ Phase 1 ::
     basicProblems.cpp
     implementation.cpp
 
+
 Phase 2 ::
     DeleteNode.cpp
     LeetCode 237
-    LeetCode 876
+    LeetCode 876 
     LeetCode 19 --> Using Math or Using slow and fast pointer 
     LeetCode 160
     LeetCode 141
     LeetCode 142
+    cycleDetection.png
+    ---> Revison Done .... May 31, 2025
+
 
 
 Phase 3 ::
     LeetCode 83
+    LeetCode 2326
+    LeetCode 21
+    LeetCode 23 ---> Hard Problem ... Merege from start and Merege from end try both with two element is ..... 
+    LeetCode 148 ----> NOT DONE ..... { Merge Sort }
+    LeetCode 206 ---> Think of current, next and pre 
+    LeetCode 234
+            M1 ::: O(n^2)
+            M2 ::: creating a deepCopy and then reverse the deepCopy and match with the original 
+            M3 ::: Solve it Using first half and reverse of last half 
+    LeetCode 92
+    LeetCode 143 
+
+
+
+Phase 4 ::
+
+
+
+
 
 
     

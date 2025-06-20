@@ -1,0 +1,5 @@
+
+
+
+
+1814  ::: Count  Number of Nice pair in an array

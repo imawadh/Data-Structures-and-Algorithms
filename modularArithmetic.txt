@@ -1,0 +1,37 @@
+1. (a+b)%m = ((a%m) + (b%m))%m
+	
+2. (a%m)%m = a%m
+
+3. (a+m)%m = a%m
+
+	since,
+		(a+b)%m = ((a%m) + (b%m))%m
+	therefore 
+		(a+m)%m = ((a%m) + (m%m))%m
+		(a+m)%m = ((a%m) + 0)%m
+	and since 
+		(a%m)%m = a%m
+	therefore 
+		(a+m)%m = ((a%m) + 0)%m
+		(a+m)%m = a%m
+
+4. (a-b)%m = ((a%m) - (b%m) + m)%m
+
+5. (a*b)%m = ((a%m)*(b%m))%m
+
+6. (a^2)%m = ((a%m)^2)%m
+
+	since 
+		(a*b)%m = ((a%m)*(b%m))%m
+		and
+		a^2 = a*a
+	therefore
+		(a^2)%m = ((a%m) * (a%m))%m
+		
+		(a^2)%m = ((a%m)^2)%m
+
+
+7.  (a^b)%m = ((a%m)^b)%m
+
+
+
