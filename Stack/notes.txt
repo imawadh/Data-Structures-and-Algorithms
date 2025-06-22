@@ -12,7 +12,7 @@ Time Complexity and Space Complexity
 
 
 
-Phase 1: 
+Phase 1 ::: 
     teestStackSTL.cpp
     Print stack element in reverse order  ---> Use two stack 
     Copy Stack
@@ -25,8 +25,23 @@ Phase 1:
         Using array/vector  -- stackImplemenationUsingArray.cpp
         Using Linked List   -- stackImplemenationUsingLinkedList.cpp
 
-Phase 2: 
-    
+Phase 2 ::: 
+    LeetCode 20  -> Valid Parenthesis 
+    LeetCode 1047 -> Remove Consecutive Dupliactes in string
+    LeetCode 496 -> Next Greater Element {Done}
+    LeetCode 503 -> Next Greater Element 2
+    LeetCode 556 -> Next Greater Element 3 {Not Done}
+    Prevoius Greater Element 
+    Prevoius Smaller Element
+    LeetCode 901 -> Online Stock Span  { Think of Prevoius Greater Element and pair }
+    LeetCode 84 
+
+
+Phase 3 :::
+
+
+
+
 
 
 
