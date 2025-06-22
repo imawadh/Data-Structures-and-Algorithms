@@ -1,0 +1,34 @@
+What is Stack ?  ----->  FILO / LIFO {First In Last Out}
+Operations on Stack 
+    1. push(element) : void                                       
+    2. top()/peek()  : dataType of Stack
+    3. pop()         : void (Delete the top element of ths stack)
+    4. size()        : int() {Return the size of stack}
+
+Time Complexity and Space Complexity 
+    Insertion : 0(1) of top and 0(n) for any other position in stack
+    Deletion  : 0(1) of top and 0(n) of other elements in the stack
+    get       : 0(1) of top and 0(n) of other elements in the stack
+
+
+
+Phase 1: 
+    teestStackSTL.cpp
+    Print stack element in reverse order  ---> Use two stack 
+    Copy Stack
+    Push at bottom / any index in stack
+    Reverse Stack ---> Using two extra stack // Using an extra array
+    https://www.geeksforgeeks.org/problems/reverse-a-stack/1
+    Stack Overlow 
+    Stack UnderFlow  --> pop() || top() if stack is empty
+    Stack Implementation 
+        Using array/vector  -- stackImplemenationUsingArray.cpp
+        Using Linked List   -- stackImplemenationUsingLinkedList.cpp
+
+Phase 2: 
+    
+
+
+
+
+

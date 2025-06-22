@@ -43,6 +43,10 @@ Phase 4 :::
     Limitation of Singly LinkedList ---> We can only go in one direction ....
 
     basicDoubly.cpp
+    doublyImplementation.cpp
+    circularLinkedList
+    circularDoublyLinkedList
+    LeetCode 725 -- > Remaining 
 
 
 
