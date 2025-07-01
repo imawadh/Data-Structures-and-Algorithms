@@ -5,5 +5,28 @@ Phase 1 :::
     Remove all the elements present in the queue at even index in the same queue ..
     Implementation of Queue using Array  -> vectorImplemtation.cpp
     Implementation of Queue using LinkedList -> LinkedListImplementaion.cpp
+    LeetCode 232 -> Implementation of Queue using stacks 
+    LeetCode 622 -> Implementation of Circular Queu
+
+
+Phase 2 :::: 
+    Reverse first k elements of queue
+    LeetCode 1700 -> Good Problem on stack and Queue Mixed -> Number of students unable to eat lunch
+    First Negative in Every Window of size k
+
+
+Phase 3 ::: 
+
+    LeetCode 239  -> Sliding Window Maximum
+    LeetCode 649 -> Dota2 Senate --> Good Problem on Queue Data Structure ... 
+    Interleave the First Half of the Queue with Second Half
+    LeetCode 950 -> Reveal Cards in INcreasing Order 
+
+    
+
+    
+
+
+
 
     
