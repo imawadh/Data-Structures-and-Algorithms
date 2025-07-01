@@ -1,0 +1,49 @@
+Phase 1 :::
+    What is Tree Data Structure ? 
+    Represenatation of Tree
+    Terminology 
+        Root 
+        Child Node 
+        Sibling Node 
+        Leaf Node 
+        Internal Node -> All nodes except boundary Nodes  
+        Acestor Node  
+        Descendent Node 
+        Level -> Generations 
+        Number of Edges  = size-1
+        Height of Tree = level-1
+        
+    Important Points related to Tree
+        1. Traversals of tree is done through DFS and BFS
+        2. It has no loop and no circuits 
+        3. It has no self loop
+
+    Type of Trees
+        1. Generic Tree --> Any Node can have any number of Childs
+        2. Binary Tree --> Any node can have at most 2 childs
+        3. Binary Search Tree -->  Every node value is greater than its left subtree and less than right sub tree
+        4 . Balanced BST -> AVL TREE
+
+    Application of Tree Data Structure
+    What is Binary Tree ?
+        Every node in Binary Tree has definetly has 2 child but it does not have it means there is nullptr and nullptr has no child at all ... 
+
+    Implementation
+        basic.cpp
+        implementation.cpp 
+
+    Traversals 
+    Type of Binary Trees 
+        1. Full Binary Tree -> Either 0 or 2 child 
+        2. Every Node (except the last level node has 2 child and last level node has 0 child.)
+        3. Complete Binary Tree 
+        4. Balanced Binary Tree -> For Every node, the maximum difference between the levels of lst and rst should be 1
+        5. Degenate and skwed Binary tree 
+
+    Problems 
+        LeetCode 543 -> Diameter of Binary Tree
+
+        
+Phase 2 ::: 
+    
+    
