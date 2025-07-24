@@ -1,0 +1,33 @@
+Operators || Operands 
+
+Operators --> +,-,*,/,%,^
+Operands ---> 0-9,a-z,A-Z 
+
+
+
+Priority of Operators :::
+
+{ Let's consider 3 being the most priority of operator and -1 be the least priority }
+^   ---> Priority Order of 3
+* / ---> Priority Order of 2
++ - ---> Priority Order of 1
+other wise ---> Priority Order of -1
+
+
+
+Infix Expression means operator will be placed between the Operands. 
+Prefix  Expression means operator will be placed before the Operands. 
+Postfix Expression means operator will be placed after the Operands. 
+
+
+Most programming languges uses Infix Expression ...  
+We human being understand infix Expression ...
+Stack beased calculator uses postfix expression ...
+
+
+
+------------------------------------------ Infix to PostFix ----------------------------------------------------
+
+
+
+

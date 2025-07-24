@@ -42,8 +42,38 @@ Phase 1 :::
 
     Problems 
         LeetCode 543 -> Diameter of Binary Tree
+        LeetCode 100 -> Same Tree
+        LeetCode 226 -> Invert The BInary Tree
+        LeetCode 257 -> Binary Tree Paths
+        LeetCode 236 -> Lowest Common Ancestor of Binary Tree
+        By solving 236 think of path from a node a other and then solve .... 
+        
 
         
+        
 Phase 2 ::: 
+    Traversals in Trees --> Traverse means to visit every data point in a tree ... DFS and BFS and Morris Traversal 
+    LeetCode 144 -> PreOrder Traversal ---> Data Left Right 
+    LeetCode 94 PreOrder Traversal ---> Left Data Right 
+    LeetCode 145 PostOrder Traversal ---> Left Right Data
+    PreInPostAnalogy.png 
+    Print nth Level in a Tree  
+    LeetCode 102 -> Level Order Traversal Using Queue {This is BFS}
+    Without Using Queue print nth level using Pre/In/Post Order simply ... Observe its magic....
+    LeetCode 103 -> Zig Zag Level Order Traversal .... 
+
+Phase 3 :::
+    DFS ---> Done Using Stack
+    BFS ---> Done Using Queue 
+    Iterative PreOrder  Done -> data -> push(right child) -> push(left child)
+    Iterative InOrder Done 
+    Iterative PostOrder Not Done
     
     
+
+
+
+    
+Very Good Problems ....
+    
+    LeetCode 297

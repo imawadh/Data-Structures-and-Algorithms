@@ -9,6 +9,7 @@ typedef long long  ll;
  
 void awadh_solution(){
  
+    // Max Heap {By default}
     // priority_queue<int> pq;
     // pq.push(9);
     // cout<<"Current Max :: "<<pq.top()<<'\n';
@@ -21,6 +22,7 @@ void awadh_solution(){
     // pq.push(8);
     // cout<<"Current Max :: "<<pq.top()<<'\n';
 
+    // MIN Heap
     priority_queue<int,vector<int>,greater<int>> pq;
     pq.push(9);
     cout<<"Current MIN :: "<<pq.top()<<'\n';

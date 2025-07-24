@@ -1,0 +1,10 @@
+Functions of Priority Queue::
+    push()
+    pop()
+    top()
+    empty()
+    size()
+
+Phase 1 :::
+    Nearly sorted Array
+    Kth largest element in the Array

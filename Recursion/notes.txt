@@ -1,5 +1,28 @@
-Recursion is solving problems with sub problems ....
+Recursion is solving problems with sub problems .... [function calling itself]
 
 Assumption :: Decide What your function does .... 
 Main Logic :: Solving Assumption with the help of subproblem..
 Base Condition ::  When to stop ! 
+
+If something is written below return statement, it is useless if written in java it would even throw error .... 
+
+
+Problems in Phases :::
+
+Phase 1::
+    functionCall.cpp
+    Understand CallStack 
+    Segmentation Fault --> It function call doesn't terminate 
+    Formal Parameters ::	The variables defined in the function declaration.
+    Actual Arguments  ::	The real values passed to the function when it is called.
+    Formal parameters = variables listed in the function definition
+    Actual arguments = values provided when calling the function.
+    factorial1.cpp
+    factorial2.cpp
+    
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+Phase 1 :::
+    Greedy is intutive in nature...
+    Alogorithmic Paradigmns ::
+        1. Brute Force --> Explore each and every possiblities 
+        2. Dynamic Programmming --> to avoid repetition for already calculated values of problems 
+        3. Divide and Conquer --> Divide the problem into smaller sub-problem and solve the problem 
+        4. Greedy Alogorithm --> Take the local optimisation 
+
+    Proof ::
+        1. Mathematical/logical Proof 
+        2. Counter Examples with dry run 
+    
+    LeetCode 1005 --> Maximize sum of array after k negation...
+    Look into this once :::: Knapsack --> 0-1 knapsack , 0-n knapsack, fractional knapsack
+    Fractional KanpSack { Sanket Sir done it custom comaparator ... }
+    LeetCode 1710 --> Maximum units on a truck 
+    LeetCode 881 --> Boats to save people
+    LeetCode 
+

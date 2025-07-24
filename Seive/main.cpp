@@ -7,8 +7,8 @@ using namespace std;
 // Typedef
 typedef long long  ll;
 const int s = 1e4+50;
+
     vector<int> primes;
-    
     void findPrimes() {
         cout<<s<<'\n';
         vector<bool> isPrime(s, true);
