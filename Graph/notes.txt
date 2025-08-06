@@ -135,7 +135,29 @@ Phase 2 :::
         It is better than Adjacancy Matrix in term of sparse graph.
 
     See the ImplemenationFolder
-        adjacency_list.cpp
+        adjacency_list.cpp --> Unweighted graph
+        adjacency_list2.cpp --> Weighted graph
+            To Do 
+                adjacency_map
+                 
+    Graph Traversals 
+        We have two major techniques to read any graph
+        1. BFS -> Breadth First Search
+        2. DFS -> Depth First Search
+
+    DFS --> Recursive in nature 
+        Motivation Problem ::
+            1. Given a Graph return the number of path from vertex A to vertex B
+            2. Given a Graph return whether path from vertex A to vertex B exist or not 
+            
+    BFS --->
+        It is notthing but level order traversal for tree. 
+        We traverse through each element of a particular level at a time, i.e vextex at a certain distance from the source are traveled once 
+        Shortest path of Unweighted graph can be done by BFS...
+
+
+
+        
         
 
 

@@ -1,15 +1,15 @@
-// This is unweighted graph 
+// This is for weighted graph 
+
 #include<iostream>
 #include<vector>
 #include<list>
 using namespace std;
+vector<list<pair<int,int>>> graph; // vector of list to store neighbour of all the elements present in the graph where each 'i'th index corrosponds to 'i'th element of the graph 
 
-vector<list<int>> graph; // vector of list to store neighbour of all the elements present in the graph where each 'i'th index corrosponds to 'i'th element of the graph 
-
-void insert(int sr, int ds, bool dir){
-    graph[sr].push_back(ds);
+void insert(int sr, int ds, int wt, bool dir){
+    graph[sr].push_back({ds,wt});
     if(dir){
-        graph[ds].push_back(sr);
+        graph[ds].push_back({sr,wt});
     }
 }
 
@@ -19,7 +19,7 @@ void print(){
     for(int i =0; i<n; i++){
         cout<<i<<" :  ";
         for(auto it : graph[i]){
-            cout<<it<<' ';
+            cout<<"("<<it.first<<", "<<it.second<<")"<<' ';
         }
         cout<<endl;
     }
@@ -30,7 +30,7 @@ void print(){
 int main(){
     int v;// Number of vertices 
     cin>>v;
-    graph.resize(v,list<int>());
+    graph.resize(v,list<pair<int,int>>());
 
     int e; // Number of edges 
     cin>>e;
@@ -39,9 +39,12 @@ int main(){
         int sr,ds;
         bool dir;  
         // Source, destination, direction --> true if it is bi-directional
-        cin>>sr>>ds>>dir;
+        cin>>sr>>ds;
 
-        insert(sr,ds,dir);
+        int wt;
+        cin>>wt;
+
+        insert(sr,ds,wt,true);
 
     }
     print();
