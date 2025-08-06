@@ -1,0 +1,149 @@
+Phase 1 ::: 
+    =========
+    What is Graph ? 
+        Collection of Notes and Edges where node represent real life entities and each node might point to some other node or not and if node point to some other node it shows relationship between connected/pointed nodes ..
+
+        Node is technically ---> Vertex
+
+    Applications of Graph :::
+        1. Google Map 
+        2. SplitWise Applications {Money Distribution}
+        3. Dependency Resolution {using Tensorflow --> Numpy Installation is necessary ---> Python Installation is necessary}
+        4. Computer Network 
+
+    Mathematical Definition of Graph :::
+        Graph is defined as a pair G = (v,e) # G = Graph, v = vertices, e = Edges
+        Graph is a ordered pair of set V and set E representing vertices and edges respectively. 
+
+    Types of Graph
+
+        On the Basis of Direction
+            1. Undirected 
+            2. Directed
+        
+        On the Basis of Edge Weight
+
+            1. Weighted Graph --> 
+            2. UnWeighted Graph --> By DeFault it is Considered as 1
+
+    Terminologies Related To Graph::
+        Mutli Graph ::
+            A undirected with multiple edges between two nodes.
+            Loop(Same node pointing to same node) might exist in multi graph.
+
+        Simple Graph ::
+            A undirected graph in which multiple edges and loops are not allowed.
+
+        Complete Graph ::
+            A graph in which each node is directly connected to all other node in the garph.
+
+        Connected Graph ::
+            In this type of graph there is always a path to go from any node to any other node in entire graph.
+
+        Path ::
+            Path is a graph in which vertices acn be arranged sequentially. 
+
+        Cycle :: 
+            A cycle is also a graph whose vertices can be arranged in a cycle sequence.
+
+        DAG (Directed Acyclic Graph) ::
+            A directing graph with no cycle 
+        
+        Degree of a Vertex::
+            Sum of all the edges incident to it or away from it.
+            Indgree or OutDegree exist in Directed Graph only.
+            We don't talk about indegree and outdegree in term of Undirected graph. In Undirected Graph we only talk about degree og undirected graph.
+
+        Tree :: 
+            It is connected gragh with no cycle. 
+            If we remove all cycles from graph we get a tree.
+
+            If we remove an edge from tree, it no more connected and we call it a "Forest".
+
+        Connected Component ::
+            If we a have a disconnected gragh, the set of vertices which are connected form a connected component.  
+
+    Facts Reagarding Terminologies :::
+
+        Tree ::
+            Number of edges = number of vertices - 1
+
+        Forest ::
+            Number of Edges = Number of vertices - 1 (max) 
+            
+        Connected Graph
+            Number of Edges = Number of vertices - 1 (min)
+
+        Undirected Complete Graph ::
+            Number of Edges = Number of vertices C 2 {v C 2}
+
+        Directed Complete Graph ::
+            Number of Edges = Number of vertices * (Number of vertices-1) 
+        
+Phase 2 :::
+
+    How to Reprsesnt Graph ::
+
+        Adjacancy List
+        In this approach we represent grapgh as a array of Linked List
+        Array :: = vertices 
+        i.e; 'i' th index in the array represnet the 'i' the vertex and it stores a linked list of node connected to it or neighbour to it. 
+        Neighbour :: These are the graph nodes which that are having direct edge to a perticular node.
+        e.g;
+            0 -> ( 2->1 )
+            1 -> ( 0->5 )
+            2 -> ( 0->5->2 )
+            3 -> ( 2->6 )
+            4 -> ( 6 )
+            5 -> ( 1->2 )
+            6 -> ( 3->4 )
+        
+        Think for directed graph as well.
+        We can store a pair in linked list where first -> vertex and second -> weight for dierected/undirected weighted graph.
+        
+        Adjacancy Set for UnWeighted Graph
+        Here we represent grapgh in teh form of array of set / undorded_set...
+        Array -> Vertex and hashset -> neighbour
+
+        Adjacancy Map for Weighted Graph
+        Here we represent grapgh in teh form of array of hashMap/undorded map...
+        Array -> Vertex and hashMap -> neighbour
+
+        this hashMap technically is efficient only for searching whether there is a edge to particular node or not.. 
+
+        Adjacancy Matrix 
+        In this technique, we represent our graph as two array of v*v dimensions where v is number of vertices in the graph.
+        
+        UnWeighted Graph    
+            adj[i][j] == 1 means there is a edge between ith edge and jth edge 
+            adj[i][j] == 0 means there is no edge between ith edge and jth edge 
+
+        Weighted Graph 
+            Instead of putting 1 on the connected pair we can put directly the weight, which would confirm the presence of edge between them.
+
+            adj[i][j] != 0 means there is a edge between ith edge and jth edge 
+            adj[i][j] == 0 means there is no edge between ith edge and jth edge 
+
+        In Case of Dense Graph, it is good and in case of sparse graph it is not good enough.
+
+        Incidence Matrix
+        In this we create v*e matrix where 
+            v = number of vertices 
+            e = number of edges 
+
+        we mark 1 for corresponding edge and and vertex that belongs to them else 0
+        It is better than Adjacancy Matrix in term of sparse graph.
+
+    See the ImplemenationFolder
+        adjacency_list.cpp
+        
+
+
+
+
+
+    
+
+ 
+
+

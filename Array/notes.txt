@@ -1,0 +1,22 @@
+1-D Array :::
+    Phase 1 :
+        What is Array ?
+        Why did we need Array ?
+        Syntax and Declaration::
+            int x[numberOfElement];
+        syntaxAndDeceleration.cpp
+        arrayInitialization.png
+        Accessing  an Element of Array of Vector 
+        How to take input for elements of array ?
+        Syntax Basic ::
+            int a = {1,2,3}; ---> Incorrect     
+            int a[] = {1,2,3}; ---> Correct     
+            int a[4] = {1,2,3}; ---> Correct {Partial Initialization}     
+            int a[2] = {1,2,3}; ---> InCorrect 
+            int size = 10, arr[size]; ---> Correct
+        largestElementArray.cpp
+        secondLargestElementArray.cpp
+        thirdLargestElementArray.cpp
+
+    Phase 2 :
+        

@@ -1,0 +1,17 @@
+Rule of Sum
+    The way you counted the number of paths in the previous problem is called the Rule of Sum.
+
+        Formally, if there are 'A' ways of doing a task and 'B' ways of doing another task and both are dependant on each other - you can either perform the first task or the second task then there are 'A + B' total ways.
+
+        Refer Images1 ::
+
+Rule of product
+    The way you counted the number of paths in the previous problem is called the Rule of Product.
+
+    Formally, if there are A ways to perform one task and B ways to perform a second task, and these tasks can be done independently of each other, then the total number of ways to perform both tasks is A.B 
+
+    Refer Image2::
+
+    
+
+

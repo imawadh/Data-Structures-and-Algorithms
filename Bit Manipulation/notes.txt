@@ -1,0 +1,11 @@
+
+
+
+# Problems of the Day :::
+    LeetCode 2411 ---> Smallest Subarry with maximum bitwise "or" "32n -> Time" {REDO}
+    LeetCode 2419 ---> Longest Subarray with maximium bitwise "AND" {REDO} 
+    LeetCode 998  ---> 
+    
+Other Problems to Solve :::
+
+    LeetCode 779  
