@@ -41,7 +41,7 @@ Phase 1 :::
             In this type of graph there is always a path to go from any node to any other node in entire graph.
 
         Path ::
-            Path is a graph in which vertices acn be arranged sequentially. 
+            Path is a graph in which vertices can be arranged sequentially. 
 
         Cycle :: 
             A cycle is also a graph whose vertices can be arranged in a cycle sequence.
@@ -55,7 +55,7 @@ Phase 1 :::
             We don't talk about indegree and outdegree in term of Undirected graph. In Undirected Graph we only talk about degree og undirected graph.
 
         Tree :: 
-            It is connected gragh with no cycle. 
+            It is connected graph with no cycle. 
             If we remove all cycles from graph we get a tree.
 
             If we remove an edge from tree, it no more connected and we call it a "Forest".
@@ -154,8 +154,15 @@ Phase 2 :::
         It is notthing but level order traversal for tree. 
         We traverse through each element of a particular level at a time, i.e vextex at a certain distance from the source are traveled once 
         Shortest path of Unweighted graph can be done by BFS...
+        It uses queue Data Structure...
 
-
+Phase 3 ::
+    LeetCode 733 --> Flood Fill --> why is initial_color==color then return ? Think .. ? 
+    Application of flood fill is Painting in MS Paint ....
+    LeetCode 1791 --> Find Center of Star Graph
+    LeetCode 841 --> Keys and Rooms Solve it using BFS and DFS
+    LeetCode 133 --> Clone Graph
+    
 
         
         

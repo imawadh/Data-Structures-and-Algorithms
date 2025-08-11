@@ -1,0 +1,40 @@
+
+Phase 1 :::
+    In c++, every thing is by default pass by value not pass by reference, means unless and until we specify it is pass by value only...
+    If you have a reference to an object in C++, you still use . (dot), not ->.
+
+    Pointer = a box that stores an address (can be changed).
+
+    Reference = another name for the same box (cannot be changed to refer to another).
+    
+    Different Programming Paradigm :::
+        1. Brute Force
+        2. DP
+        3. Greedy
+        4. Divide and Conquer 
+
+    In backtarcking we follow a path for the answer, when we know that this not possible or reach one solution, we revert it and search for other possibilities....
+
+
+    Think of what will be the difference when it pass by value and when it is pass by referenece ... 
+        1. Pass by value +  concat ---> true but no pop_back()
+        2. Pass by value + push_back() ---> true but pop_back
+        3. Pass by Reference + push_back() ---> true but pop_back
+        4. Pass by referenece + concat---> error 
+
+        Just think why does happen .... ???
+
+    p1StringPermuataion.cpp --> string based
+    p2StringPermuataion.cpp --> string based
+    p3StringPermuataion.cpp --> string based
+    p4StringPermuataion.cpp --> index based
+    p5StringPermuataion.cpp --> index based
+    p6StringPermuataion.cpp --> index based
+
+    Step of prunning and step of tracking back is the most important thing in backtarcking .... 
+
+    nQueens
+    nRowQueens.cpp
+    
+
+
