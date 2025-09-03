@@ -1,0 +1,56 @@
+Important DSA
+	
+1. GCD
+ 
+	int gcd(int a, int b){
+	    while(b!=0){
+	    	int rem = a%b;
+	    	a = b;
+	    	b = rem;
+	    }
+	    return a;
+	}
+
+2. Divisibility By 13 
+	
+	Right to left make triplet of + , - , + , - , ....  and check if number is divisible or not 
+	if leftmost doesn't fit with triplet consider the remaining of number in triplet as 0;... 
+
+		
+	or 
+	
+	We process the number digit by digit from left to right, maintaining the remainder modulo 13 at each step using the formula:
+	rem = (rem * 10 + digit) % 13.
+	
+	....  initially remainder is 0... and if at the remainder is Zero return true ...
+
+
+
+3. Find whether given number is power of 2 or not ...  =====> (log(n)/ log(k) - round(log(n)/ log(k))) < 1e-10
+	let n = k^m
+	Taking log on both side 
+		log(n) = log(k^m)
+		log(n) = m * log(k)
+		log(n)/log(k) = m
+		
+		so, we can say that log(n)/log(k) should be an integer i.e; m should should an integer 
+		this conclude that 'm' is an integer then only n = k^m is possible ... 
+
+
+4. Find the nth root of a number 
+	let n is x^th root of m
+		n = x^th root of m
+		taking x^th power on both side 
+		n^x = m
+		log on both side 
+		log(n) = 1/x * log(m)
+		n = e^(1/x * log(m)
+		
+		What is 5th root of 10 / what is square root of 45 ? ===> Similar Questions can be solved using this ....
+
+
+5. T.C for Sieve of Eratosthenes is n * sqrt(n) ...
+
+
+		
+		
