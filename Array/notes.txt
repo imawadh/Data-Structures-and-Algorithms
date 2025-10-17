@@ -19,4 +19,11 @@
         thirdLargestElementArray.cpp
 
     Phase 2 :
+        Array is pass by reference when passed to function
+        Another reference is passed to same array when passing to a function and no need to pass &arrayName to pass it by pass reference.
+            passByReferenceArray.cpp ->
         
+        When pass by reference we use . operator... 
+        
+        
+

@@ -1,7 +1,8 @@
 
 Phase 1 :::
     In c++, every thing is by default pass by value not pass by reference, means unless and until we specify it is pass by value only...
-    If you have a reference to an object in C++, you still use . (dot), not ->.
+    
+    # If you have a reference to an object in C++, you still use . (dot), not ->.
 
     Pointer = a box that stores an address (can be changed).
 
@@ -22,7 +23,7 @@ Phase 1 :::
         3. Pass by Reference + push_back() ---> true but pop_back
         4. Pass by referenece + concat---> error 
 
-        Just think why does happen .... ???
+        Just think why does it happen .... ???
 
     p1StringPermuataion.cpp --> string based
     p2StringPermuataion.cpp --> string based
@@ -39,6 +40,6 @@ Phase 1 :::
     
 Phase 2 :::
 
-
+Apply backtarcking with atmost 7 characters else it would result in TLE .... 
 
 

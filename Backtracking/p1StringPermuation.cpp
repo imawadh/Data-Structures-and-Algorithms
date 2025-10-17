@@ -15,7 +15,7 @@ void permutation(string originial, string ans){
     return;
 }
 int main(){
-    string s = "abcd";
+    string s = "abc";
     // abc,acb,bac,bca,cab,cba --> all the permuations of string "abc"
     permutation(s,"");
 }
