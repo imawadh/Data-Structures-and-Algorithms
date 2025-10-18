@@ -42,7 +42,7 @@ void awadh_solution(){
     //     cout<<"Size of Stack :: " <<s.size()<<'\n';
     // }
 
-    cout<<"Correct Oeder stack is ::: ";
+    cout<<"Correct Order stack is ::: ";
     displayRecusively(s);
     cout<<"\nReverse stack is ::: ";
     displayReverseRecusively(s);

@@ -22,8 +22,75 @@
         Array is pass by reference when passed to function
         Another reference is passed to same array when passing to a function and no need to pass &arrayName to pass it by pass reference.
             passByReferenceArray.cpp ->
-        
+            we can also recieve int *arrayName as paramater in the function.
+
         When pass by reference we use . operator... 
         
+        int *ptr = arr;  -> sahi hai // passing address
+        int *ptr = &arr; -> galat hai // passing address of address 
+        int *ptr = arr[0]; -> galat hai // passing value instead of address
+        int *ptr = &arr[0]; -> sahi hai // passing address
+        1. 
+            for(int i = 0; i<5; i++){
+                cout<<arr[i]<<' ';
+            }        
         
+        2.
+            int* ptr = arr;
+            for(int i =0; i<5; i++){
+                cout<<*ptr<<' ';
+                ptr++;
+            }
+        
+        3.
+            for(int i =0; i<5; i++){
+                cout<<i[ptr]<<' ';
+            }
+        
+        4.
+            int* ptr = arr;
+            for(int i =0; i<5; i++){
+                cout<<*ptr[i]<<' ';
+            }
+
+        1, 2, 3, 4 will will result in same output.... 
+
+
+        Vector --> It is of dynamic size while array was not.
+
+        vector.size()  V/s v.capcity 
+        new capacity = oldSize * 2; 
+
+        1. vector <int> v(5) means size of vector and capacity of vector is 5 only...
+        2. v.at(index)
+        3. vectors are pass by value by default, we use & to make it pass by reference.
+        
+        Rotate an array by k steps ::
+            step 1 : k = k%n;
+            step 2 : reverse(0,n-k-1); // start ke n-k elements ko reverse
+            step 3 : reverse(n-k,n-1); // antim ke k elements ko reverse
+            step 4 : reverse(0,n-1); // complete array reverse 
+
+    Phase 3 :
+        1. Sort Arrays of Zeroes and Ones.
+            sortZeroesANsOnes.cpp
+        2. Sort Color
+        3. Merge Two Sorted array 
+            Leetcode 88
+            Try Doing in same array
+        4. Next Permutation
+            LeetCode 31
+            step 1 : Find pivot element  
+            step 2 : Reverse pivot+1 to n-1 takki wo sorted ho jaye 
+            step 3 : if(pivot==-1) reverse the complete array ... 
+            step 4 : swap(pivot, n-1)  # Check once 
+            nextPermuataion.cpp
+
+        5. Trapping Rainwater
+            LeetCode 42
+        
+2-D Array 
+    Phase 1 :
+                
+
 
