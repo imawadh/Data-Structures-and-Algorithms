@@ -1,0 +1,15 @@
+Phase 1 :
+    What is Dynamic Programming ? 
+        Advanced/ Optimised Recursion 
+        Recursion --  Recursion is nothing but solving the bigger problems with sub Problems... 
+        DP --> Solve the isue of Overlapping Sub Problems ... 
+
+        Leetcode 509 --> Fibonacci Number ==> Fibonacci.cpp --> Done using Bottom Up Dp 
+            It can also be done using 
+        Leetcode 746 --> Min Cost Climbing Stairs ==> 
+        
+        // > means is better than
+                0(log n) > 0(sqrt(n)) > 0(n) > 0(n * log n) > 0(n^2) > 0(n^3) >>> 0(2^n)
+
+
+

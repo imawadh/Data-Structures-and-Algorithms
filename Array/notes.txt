@@ -80,10 +80,10 @@
             Try Doing in same array
         4. Next Permutation
             LeetCode 31
-            step 1 : Find pivot element  
-            step 2 : Reverse pivot+1 to n-1 takki wo sorted ho jaye 
-            step 3 : if(pivot==-1) reverse the complete array ... 
-            step 4 : swap(pivot, n-1)  # Check once 
+            step 1 : Find pivot element 
+            step 2 : Find the first greater element than pivot element from right to pivot 
+            step 3 : swap and break after we got the first grater elemnt from right 
+            step 4 : reverse the pivot+1 to n-1 array 
             nextPermuataion.cpp
 
         5. Trapping Rainwater

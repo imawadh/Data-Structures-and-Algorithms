@@ -27,19 +27,33 @@ Phase 1 :::
 
 Phase 2 ::: 
     LeetCode 20  -> Valid Parenthesis 
-    LeetCode 1047 -> Remove Consecutive Duplicates in string
+    LeetCode 1047 -> Remove Consecutive Duplicates in string 
     LeetCode 496 -> Next Greater Element {Done}
-    LeetCode 503 -> Next Greater Element 2
+    LeetCode 503 -> Next Greater Element 2 -> Pop Ans ans Push Terminology 
     LeetCode 556 -> Next Greater Element 3 {Not Done}
     Prevoius Greater Element 
     Prevoius Smaller Element
     LeetCode 901 -> Online Stock Span  { Think of Prevoius Greater Element and pair }
-    LeetCode 84 
+    LeetCode 84 ->  LargestReactangleInTheHistogram.cpp {Redo On LeetCode as well..}
 
 
 Phase 3 :::
-    Leetcode 1944
-    LeetCode 329
+    Leetcode 1944 --> Number of visisble people 
+    LeetCode 329 -->  Sliding Window maximum
+    Leetcode 155 --> Implement Min stack
+
+Phase 4 :::
+    Prefix, PostFix and Infix 
+    
+        Infix Expression --> Human Readable expression => 2 + 2
+        PostFix Expression --> Operators are in the back => 2 2 +
+        PreFix Expression --> Operators are in the front => + 2 2
+        Solve Innfix without ()
+        Solve Innfix with ()
+
+
+
+
 
 
 
