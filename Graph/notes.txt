@@ -151,7 +151,7 @@ Phase 2 :::
             2. Given a Graph return whether path from vertex A to vertex B exist or not 
             
     BFS --->
-        It is notthing but level order traversal for tree. 
+        It is nothing but level order traversal for tree. 
         We traverse through each element of a particular level at a time, i.e vextex at a certain distance from the source are traveled once 
         Shortest path of Unweighted graph can be done by BFS...
         It uses queue Data Structure...
@@ -161,7 +161,7 @@ Phase 3 ::
     Application of flood fill is Painting in MS Paint ....
     LeetCode 1791 --> Find Center of Star Graph
     LeetCode 841 --> Keys and Rooms Solve it using BFS and DFS
-    LeetCode 133 --> Clone Graph
+    LeetCode 133 --> Clone Graph {Not Done}
     
 
 Random Questions :::

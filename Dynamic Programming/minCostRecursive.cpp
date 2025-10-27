@@ -10,15 +10,17 @@ int minimumCost = INT_MAX;
 void minCost(vector<int>&v, int currentCost,int idx,int n){
     if(idx>=n){
         minimumCost = min(minimumCost,currentCost);
+        return;
     }
     minCost(v,v[idx]+currentCost,idx+2,n);
     minCost(v,v[idx]+currentCost,idx+1,n);
 }
 void awadh_solution(){
     cout<<"Hello"<<'\n';
-    vector <int> v = {10,15,20};
+    vector <int> v = {841,462,566,398,243,248,238,650};
     int currentCost = 0;
     minCost(v,0,0,v.size());
+    minCost(v,0,1,v.size());
 
     cout<<minimumCost<<'\n';
 }
