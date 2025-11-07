@@ -1,8 +1,11 @@
 
 Phase 1 :::
-    In c++, every thing is by default pass by value not pass by reference, means unless and until we specify it is pass by value only...
+    In c++, every thing is by default pass by value not pass by reference, means unless and until we specify it is pass by refernce only...
+    
+    int arr = {1,2,3} --> Array in c++ is pass by reference. 
     
     # If you have a reference to an object in C++, you still use . (dot), not ->.
+    # When we have reference, we use -> {arrow operator}.
 
     Pointer = a box that stores an address (can be changed).
 
@@ -18,10 +21,10 @@ Phase 1 :::
 
 
     Think of what will be the difference when it pass by value and when it is pass by referenece ... 
-        1. Pass by value +  concat ---> true but no pop_back()
-        2. Pass by value + push_back() ---> true but pop_back
-        3. Pass by Reference + push_back() ---> true but pop_back
-        4. Pass by referenece + concat---> error 
+        1. Pass by value +  concat ---> true --> but no pop_back()
+        2. Pass by value + push_back() ---> true --> but pop_back
+        3. Pass by Reference + push_back() ---> true --> but pop_back
+        4. Pass by referenece + concat ---> error 
 
         Just think why does it happen .... ???
 

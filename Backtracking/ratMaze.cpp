@@ -3,14 +3,19 @@
 using namespace std;
 
 vector<string> ans;
+
+// 0 means blocked cell
+// 1 means cell that can be visted .... 
 void path(vector<vector<int>>& maze, int cr, int cc, int row, int col,string currentPath){
     if(cr==row && cc == col){
         ans.push_back(currentPath);
         return;
     }
-    if(cr<0 || cr>row || cc<0 || cc>col || maze[cr][cc]==0){
+    if(cr<0 || cr>row || cc<0 || cc>col || maze[cr][cc]==0){ 
+        // maze[cr][cc] == 0, iska mtlb cell pahle se block hai isliye uspe traverse nhi kar sakte .... 
         return;
     }
+
     maze[cr][cc] = 0;
     path(maze,cr+1, cc, row,col,currentPath+"D");
     path(maze,cr-1, cc, row,col,currentPath+"U");
@@ -21,13 +26,15 @@ void path(vector<vector<int>>& maze, int cr, int cc, int row, int col,string cur
 }
 
 vector<string> ratInMaze(vector<vector<int>>& maze) {
+
     // code here
     int row = maze.size();
     int col = maze[0].size();
     if(maze[row-1][col-1]==0) return ans;
     path(maze,0,0,row-1,col-1,"");
-    sort(ans.begin(),ans.end());
+    // sort(ans.begin(),ans.end());
     return ans;
+
 }
 
 int main(){
@@ -53,4 +60,5 @@ int main(){
     }
 
     return 0;
+    
 }

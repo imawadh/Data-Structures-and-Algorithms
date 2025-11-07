@@ -156,7 +156,7 @@ Phase 2 :::
         Shortest path of Unweighted graph can be done by BFS...
         It uses queue Data Structure...
 
-Phase 3 ::
+Phase 3 :::
     LeetCode 733 --> Flood Fill --> why is initial_color==color then return ? Think .. ? 
     Application of flood fill is Painting in MS Paint ....
     LeetCode 1791 --> Find Center of Star Graph
@@ -164,9 +164,20 @@ Phase 3 ::
     LeetCode 133 --> Clone Graph {Not Done}
     
 
+
+Important ::
+    DFS --->
+        start from  point and make a visted array if not visted in the adj[start point][i] reach it and make it visted in the visted array and let it explore futher
+            req : vis , for loop 
+
+    BFS ---> 
+        start from a point reach to each of its child it push it into queue and later try to reach to all other grand child of  child nodes 
+            req :: queue, visted array
+            
 Random Questions :::
     LeetCode 785 : Is Graph BiPartile ... ? 
     Revison Questions 
+    LeetCode 547
 
         
         

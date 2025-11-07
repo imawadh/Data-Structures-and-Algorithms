@@ -1,0 +1,5 @@
+Phase 1 :
+    User Made Data Structure 
+    Range Queries can be soved very efficiently using Segment Trees.. 
+    It is implemented like Binary Serach Tree in the array in the form of sorted Structure and sapping is done continuous to make it balanced structure ... 
+     
